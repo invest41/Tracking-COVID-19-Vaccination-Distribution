@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df = pd.read_csv('/content/vaccine_data.csv', index_col='date',parse_dates=True,error_bad_lines=False)
+df = pd.read_csv('vaccine_data.csv', index_col='date',parse_dates=True,error_bad_lines=False)
 print(list(df.columns))
 
 #column chart
